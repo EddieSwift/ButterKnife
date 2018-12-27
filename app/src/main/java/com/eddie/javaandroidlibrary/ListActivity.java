@@ -37,6 +37,7 @@ public class ListActivity extends AppCompatActivity implements MyAdapter.Callbac
     @Override
     public void onRowClick(int position) {
 
+        //TODO changes
         Toast.makeText(this, "Something", Toast.LENGTH_SHORT).show();
     }
 }
